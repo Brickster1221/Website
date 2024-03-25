@@ -1,4 +1,4 @@
 function Test() {
-  const Random = Math.Random() * 100 + 1
-  document.getElementById('message').textContext = toString(Random)
+  const Random = Math.Random() * 100 + 1;
+  document.getElementById("message").innerHTML = toString(Random);
 }
